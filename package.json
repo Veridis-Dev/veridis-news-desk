@@ -1,0 +1,36 @@
+{
+  "name": "veridis-news-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "i18n:js-pot": "babel src/AdminApp src/EditorApp --extensions .ts,.tsx --out-dir .i18n-cache --config-file ./babel.i18n.config.cjs --quiet",
+    "package": "npm run build && node scripts/package.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.0",
+    "@wordpress/i18n": "^6.28.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@babel/preset-typescript": "^7.29.7",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@wordpress/babel-plugin-makepot": "^6.55.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0"
+  }
+}

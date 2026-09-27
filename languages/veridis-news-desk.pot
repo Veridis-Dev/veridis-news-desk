@@ -1,0 +1,2806 @@
+# Copyright (C) 2026 Veridis
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Veridis News Desk 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/veridis-news-desk\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-23T13:59:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: veridis-news-desk\n"
+
+#: src/AdminApp/api/client.ts:19
+msgid "News Desk could not start. Reload this page."
+msgstr ""
+
+#: src/AdminApp/api/client.ts:40
+msgid "Your session expired or you do not have access. Reload the page to sign in again."
+msgstr ""
+
+#: src/AdminApp/api/client.ts:41
+msgid "We could not load your desk. Please try again."
+msgstr ""
+
+#: src/AdminApp/api/client.ts:45
+msgid "The server returned an unexpected response. Please try again."
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:46
+msgid "Skip to content"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:49
+msgid "VERIDIS"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:49
+msgid "NEWS"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:52
+#: src/AdminApp/design-system/VeridisTabs.tsx:10
+msgid "News Desk"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:55
+msgid "A calmer space for a busy newsroom."
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:60
+msgid "About News Desk ↗"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:86
+msgid "Developed by"
+msgstr ""
+
+#. Author of the plugin
+#: src/AdminApp/app/App.tsx:92
+#: veridis-news-desk.php
+msgid "Veridis"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:97
+msgid "Meet your News Desk"
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:98
+msgid "Your newsroom’s new home inside WordPress. A shared overview, a focused workspace, and room for the next story."
+msgstr ""
+
+#: src/AdminApp/app/App.tsx:99
+msgid "Plan stories in Newsroom, track deadlines and follow-ups, and edit articles with your existing WordPress permissions."
+msgstr ""
+
+#: src/AdminApp/app/ErrorBoundary.tsx:10
+msgid "Something interrupted your desk"
+msgstr ""
+
+#: src/AdminApp/app/ErrorBoundary.tsx:10
+msgid "Reload the page to start again."
+msgstr ""
+
+#: src/AdminApp/app/ErrorBoundary.tsx:10
+msgid "Reload page"
+msgstr ""
+
+#. 1: issue label, 2: issue detail.
+#: src/AdminApp/components/DashboardPanels.tsx:111
+msgid "%1$s: %2$s. View in Newsroom"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:138
+msgid "All clear"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:138
+msgid "No attention items to show."
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:144
+#: src/AdminApp/components/DashboardSkeleton.tsx:30
+#: src/AdminApp/pages/Dashboard.tsx:72
+msgid "Deadline watch"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:147
+msgid "View all:"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:148
+msgid "View all overdue stories in Newsroom"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:149
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:20
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:35
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:72
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:33
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:77
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:104
+#: src/EditorApp/main.ts:1140
+msgid "Overdue"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:151
+msgid "View all stories due today in Newsroom"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:152
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:21
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:47
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:73
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:34
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:105
+msgid "Due today"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:173
+#: src/AdminApp/pages/Dashboard.tsx:81
+msgid "No deadline risks today"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:173
+msgid "No overdue stories or stories due today."
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:176
+#: src/AdminApp/components/DashboardSkeleton.tsx:31
+#: src/AdminApp/components/followups/FollowUpSection.tsx:32
+#: src/AdminApp/hooks/useNavigation.ts:7
+#: src/AdminApp/pages/FollowUps.tsx:67
+#: src/AdminApp/pages/Help.tsx:59
+msgid "Follow-ups"
+msgstr ""
+
+#. %d: number of open follow-ups
+#: src/AdminApp/components/DashboardPanels.tsx:185
+msgid "%d open follow-ups. View all"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:194
+msgid "open"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:221
+msgid "No pending follow-ups"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:222
+msgid "All callbacks and story tasks are complete."
+msgstr ""
+
+#. %d: unique stories with a health issue or overdue editorial deadline.
+#: src/AdminApp/components/DashboardPanels.tsx:31
+msgid "%d story"
+msgid_plural "%d stories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:34
+#: src/AdminApp/components/DashboardSkeleton.tsx:28
+msgid "In progress"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:36
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:225
+#: src/AdminApp/design-system/CategoryBadge.tsx:49
+msgid "Uncategorized"
+msgstr ""
+
+#. %s: scheduled local date and time.
+#: src/AdminApp/components/DashboardPanels.tsx:39
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:11
+msgid "Scheduled: %s"
+msgstr ""
+
+#. %s: last modified local date and time.
+#: src/AdminApp/components/DashboardPanels.tsx:41
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:15
+msgid "Updated: %s"
+msgstr ""
+
+#. %d: number of Article Health issues.
+#: src/AdminApp/components/DashboardPanels.tsx:46
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:61
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:22
+msgid "%d issue"
+msgid_plural "%d issues"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:84
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:46
+msgid "Your newsroom is ready"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:85
+msgid "Start by creating a story, assigning it, and setting its editorial status."
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:88
+#: src/AdminApp/components/followups/FollowUpList.tsx:81
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:48
+msgid "Create your first story"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:92
+msgid "A clear desk"
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:92
+msgid "No stories in progress."
+msgstr ""
+
+#: src/AdminApp/components/DashboardPanels.tsx:94
+#: src/AdminApp/components/DashboardSkeleton.tsx:29
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:87
+#: src/PHP/Dashboard/DashboardService.php:80
+msgid "Needs attention"
+msgstr ""
+
+#: src/AdminApp/components/DashboardSkeleton.tsx:34
+msgid "Loading dashboard"
+msgstr ""
+
+#: src/AdminApp/components/DashboardSkeleton.tsx:35
+msgid "Loading your desk…"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:19
+#: src/EditorApp/main.ts:116
+msgid "Set deadline…"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:210
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:67
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:178
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:71
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:99
+#: src/EditorApp/main.ts:1135
+msgid "Deadline"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:242
+#: src/EditorApp/main.ts:1190
+msgid "Clear"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:263
+#: src/EditorApp/main.ts:334
+msgid "Set Deadline"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:268
+#: src/EditorApp/main.ts:341
+msgid "Close deadline dialog"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:289
+#: src/EditorApp/main.ts:371
+msgid "Previous month"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:312
+#: src/EditorApp/main.ts:386
+msgid "Next month"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:343
+#: src/EditorApp/main.ts:406
+msgid "Calendar days"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:382
+#: src/EditorApp/main.ts:445
+msgid "Time (24h)"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:400
+#: src/EditorApp/main.ts:465
+msgid "Hour"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:422
+#: src/EditorApp/main.ts:485
+msgid "Minute"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:436
+#: src/EditorApp/main.ts:1188
+msgid "Clear deadline"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:448
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:23
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:52
+#: src/AdminApp/components/followups/FollowUpModal.tsx:143
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:224
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:216
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:93
+#: src/EditorApp/main.ts:517
+msgid "Cancel"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:455
+#: src/EditorApp/main.ts:526
+msgid "Set deadline"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:51
+#: src/EditorApp/main.ts:134
+msgid "January"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:52
+#: src/EditorApp/main.ts:135
+msgid "February"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:53
+#: src/EditorApp/main.ts:136
+msgid "March"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:54
+#: src/EditorApp/main.ts:137
+msgid "April"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:55
+#: src/EditorApp/main.ts:138
+msgid "May"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:56
+#: src/EditorApp/main.ts:139
+msgid "June"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:57
+#: src/EditorApp/main.ts:140
+msgid "July"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:58
+#: src/EditorApp/main.ts:141
+msgid "August"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:59
+#: src/EditorApp/main.ts:142
+msgid "September"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:60
+#: src/EditorApp/main.ts:143
+msgid "October"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:61
+#: src/EditorApp/main.ts:144
+msgid "November"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:62
+#: src/EditorApp/main.ts:145
+msgid "December"
+msgstr ""
+
+#: src/AdminApp/components/WorkspaceToggle.tsx:10
+msgid "Restore sidebar"
+msgstr ""
+
+#: src/AdminApp/components/WorkspaceToggle.tsx:11
+msgid "Expand workspace"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:23
+msgid "Add breaking story"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:27
+msgid "Selected article"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:31
+msgid "Change article"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:37
+#: src/AdminApp/components/followups/FollowUpModal.tsx:163
+msgid "Search articles by title"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:39
+#: src/AdminApp/components/followups/FollowUpModal.tsx:176
+msgid "Search article titles…"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:50
+msgid "Published and scheduled articles appear first."
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:56
+#: src/AdminApp/components/followups/FollowUpModal.tsx:190
+msgid "Searching articles"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:57
+#: src/AdminApp/components/followups/FollowUpModal.tsx:191
+msgid "Searching…"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:80
+msgid "Already Breaking"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:91
+msgid "No matching articles."
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:97
+msgid "Can’t find the right article?"
+msgstr ""
+
+#: src/AdminApp/components/breaking/AddBreakingStoryModal.tsx:98
+msgid "Create new story"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:23
+msgid "Breaking coverage saved."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:27
+msgid "Breaking details"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:27
+msgid "Configure how this coverage appears across the newsroom."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:28
+msgid "This article is not published or scheduled. Breaking does not publish it."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:30
+#: src/AdminApp/components/breaking/BreakingSection.tsx:20
+msgid "Active"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:32
+#: src/AdminApp/components/breaking/BreakingSection.tsx:23
+msgid "Label"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:33
+#: src/AdminApp/components/breaking/BreakingSection.tsx:22
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:159
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:87
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:198
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:176
+#: src/EditorApp/main.ts:1211
+msgid "Priority"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:33
+msgid "Standard"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:33
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:40
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:167
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:202
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:117
+#: src/EditorApp/main.ts:1231
+#: src/PHP/Editorial/Priority.php:25
+msgid "High"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:33
+msgid "Critical"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:35
+msgid "Label must contain 1–40 characters."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:42
+msgid "Expiry — site timezone:"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:45
+msgid "Presets"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:45
+msgid "Expiry presets"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+msgid "30 min"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+msgid "1 hour"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+msgid "2 hours"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+msgid "4 hours"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+msgid "End of day"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:46
+#: src/AdminApp/components/breaking/BreakingRow.tsx:21
+#: src/AdminApp/components/breaking/BreakingSection.tsx:25
+msgid "No expiry"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:48
+msgid "Selected preset will be applied at Save, in site time."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:49
+#: src/AdminApp/components/breaking/BreakingRow.tsx:17
+#: src/AdminApp/components/breaking/BreakingSection.tsx:26
+msgid "Homepage lead"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:52
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:275
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:211
+#: src/AdminApp/pages/Settings.tsx:298
+#: src/EditorApp/main.ts:639
+msgid "Unsaved changes"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:52
+#: src/AdminApp/components/followups/FollowUpModal.tsx:147
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:285
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:212
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:219
+#: src/AdminApp/pages/Settings.tsx:324
+#: src/EditorApp/main.ts:1248
+msgid "Saving…"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingEditor.tsx:52
+msgid "Save Breaking"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:21
+#: src/AdminApp/components/breaking/BreakingSection.tsx:24
+msgid "Started"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:21
+#: src/AdminApp/components/breaking/BreakingSection.tsx:25
+msgid "Expires"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:22
+msgid "issues"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:24
+#: src/AdminApp/components/followups/FollowUpRow.tsx:126
+msgid "Edit"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:24
+#: src/AdminApp/components/breaking/BreakingSection.tsx:29
+msgid "Removed from Breaking."
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingRow.tsx:24
+msgid "Remove"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:18
+#: src/AdminApp/pages/Breaking.tsx:28
+msgid "Breaking"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:18
+#: src/AdminApp/pages/Breaking.tsx:65
+msgid "Edit Breaking"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:18
+msgid "Promote to Breaking"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:20
+#: src/AdminApp/components/followups/FollowUpModal.tsx:306
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:55
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:50
+msgid "Status"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:20
+msgid "Expired"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:20
+msgid "Not active"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:26
+msgid "Yes"
+msgstr ""
+
+#: src/AdminApp/components/breaking/BreakingSection.tsx:29
+msgid "Remove from Breaking"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:13
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:59
+msgid "Open tasks"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:14
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:60
+msgid "Completed"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:15
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:61
+msgid "Cancelled"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:16
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:62
+msgid "All statuses"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:22
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:55
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:74
+msgid "Upcoming"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:23
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:63
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:75
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:35
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:106
+#: src/PHP/FollowUps/FollowUpService.php:270
+msgid "No deadline"
+msgstr ""
+
+#. %s: search query
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:40
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:80
+msgid "Search: “%s”"
+msgstr ""
+
+#. %s: search query
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:42
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:82
+msgid "Remove search filter “%s”"
+msgstr ""
+
+#. %s: follow-up status label.
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:53
+msgid "Status: %s"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:54
+msgid "Reset status filter"
+msgstr ""
+
+#. %s: deadline filter label.
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:65
+msgid "Deadline: %s"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:66
+msgid "Reset deadline filter"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:73
+#: src/AdminApp/components/followups/FollowUpModal.tsx:284
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:31
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:101
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:22
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:149
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:65
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:180
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:46
+#: src/AdminApp/components/newsroom/storyPeopleLabels.ts:17
+#: src/PHP/Editorial/EditorialMetadataService.php:38
+#: src/PHP/FollowUps/FollowUpService.php:308
+msgid "Unassigned"
+msgstr ""
+
+#. %d: WordPress user ID.
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:77
+msgid "User #%d"
+msgstr ""
+
+#. %s: assignee display name.
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:82
+msgid "Assignee: %s"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpActiveFilters.tsx:83
+msgid "Reset assignee filter"
+msgstr ""
+
+#. %d: count of open follow-up tasks
+#: src/AdminApp/components/followups/FollowUpList.tsx:104
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:104
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:71
+msgid "%d follow-up"
+msgid_plural "%d follow-ups"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: current page number, 2: total number of pages.
+#: src/AdminApp/components/followups/FollowUpList.tsx:106
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:55
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:113
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:60
+msgid "Updating…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:114
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:61
+msgid "Refresh failed. Showing the last results."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:130
+msgid "Follow-ups pagination"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:136
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:66
+msgid "Previous"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:144
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:68
+msgid "Next"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:54
+#: src/AdminApp/components/followups/FollowUpSection.tsx:61
+msgid "Loading follow-ups"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:55
+msgid "Loading follow-up tasks…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:67
+msgid "Follow-ups could not load"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:68
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:176
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:153
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:44
+#: src/AdminApp/pages/Dashboard.tsx:49
+msgid "Please try again."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:69
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:177
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:154
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:44
+#: src/AdminApp/pages/Breaking.tsx:53
+#: src/AdminApp/pages/Dashboard.tsx:49
+#: src/AdminApp/pages/Settings.tsx:183
+msgid "Try again"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:77
+msgid "No follow-ups yet"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:78
+msgid "Follow-ups are attached to stories. Create your first story to start tracking callbacks, updates, and editorial tasks."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:91
+msgid "No follow-ups found"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:92
+msgid "There are no editorial follow-ups matching the current filters."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpList.tsx:95
+msgid "Create follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:111
+msgid "Follow-up updated."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:121
+msgid "Follow-up added."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:126
+#: src/PHP/FollowUps/FollowUpService.php:96
+msgid "Could not save follow-up."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:134
+#: src/AdminApp/components/followups/FollowUpRow.tsx:124
+msgid "Edit follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:134
+msgid "New follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:149
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:219
+msgid "Save changes"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:150
+msgid "Add follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:159
+msgid "Select article to attach follow-up to:"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:235
+msgid "No matching articles found."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:244
+msgid "Story"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:253
+msgid "Change"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:259
+msgid "Task / Title"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:270
+msgid "e.g. Call city hall tomorrow for the official response"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:278
+#: src/EditorApp/main.ts:1108
+msgid "Assignee"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:299
+msgid "Due at"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:312
+#: src/PHP/FollowUps/FollowUpStatus.php:25
+msgid "Open"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:320
+msgid "Notes / Context"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:325
+msgid "Optional notes, phone numbers, background context…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:85
+msgid "Title is required."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:89
+#: src/PHP/FollowUps/FollowUpService.php:214
+msgid "Title cannot exceed 190 characters."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:95
+msgid "Please select an article first."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:37
+msgid "Follow-up completed."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:38
+msgid "Follow-up reopened."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:42
+#: src/PHP/FollowUps/FollowUpService.php:163
+msgid "Could not update follow-up."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:58
+msgid "Mark follow-up as incomplete"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:59
+msgid "Mark follow-up as complete"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:63
+msgid "Reopen follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:64
+msgid "Complete follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpRow.tsx:92
+msgid "Open story in newsroom"
+msgstr ""
+
+#. %d: count of open follow-up tasks
+#: src/AdminApp/components/followups/FollowUpSection.tsx:37
+msgid "%d open editorial task"
+msgid_plural "%d open editorial tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/AdminApp/components/followups/FollowUpSection.tsx:40
+msgid "No open follow-up tasks for this story."
+msgstr ""
+
+#. %d: count of overdue follow-up tasks
+#: src/AdminApp/components/followups/FollowUpSection.tsx:49
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:99
+msgid "%d overdue"
+msgid_plural "%d overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/AdminApp/components/followups/FollowUpSection.tsx:55
+msgid "+ Add follow-up"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSection.tsx:62
+msgid "Loading follow-ups…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSection.tsx:70
+msgid "No follow-ups recorded yet. Add callbacks, pending responses, or future revisits."
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:24
+msgid "Loading follow-up overview…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:38
+msgid "Nothing overdue"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:40
+msgid "Requires immediate attention"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:41
+msgid "Require immediate attention"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:49
+msgid "Tasks due today"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:57
+msgid "Future deadlines"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:65
+msgid "Backlog & notes"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpSummaryCards.tsx:72
+msgid "Follow-up overview"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:30
+msgid "All assignees"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:38
+msgid "Search follow-ups or stories"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:49
+msgid "Search follow-ups or stories…"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:71
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:32
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:103
+msgid "All deadlines"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpToolbar.tsx:80
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:143
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:57
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:169
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:91
+msgid "Assigned to"
+msgstr ""
+
+#. %d: assignee ID
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:105
+msgid "Assignee #%d"
+msgstr ""
+
+#. %d: author ID
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:156
+msgid "Author #%d"
+msgstr ""
+
+#. %s: public WordPress author name.
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:158
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:147
+#: src/AdminApp/components/newsroom/storyPeopleLabels.ts:31
+msgid "Author: %s"
+msgstr ""
+
+#. %d: category ID
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:172
+msgid "Category #%d"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:196
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:186
+#: src/PHP/Dashboard/DashboardService.php:78
+msgid "Published today"
+msgstr ""
+
+#. %s: filter label
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:201
+msgid "Remove %s filter"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:25
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:21
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:135
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:161
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:82
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:8
+#: src/AdminApp/pages/Help.tsx:30
+#: src/EditorApp/main.ts:1094
+#: src/PHP/Editorial/EditorialStatus.php:21
+msgid "Idea"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:26
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:22
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:136
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:162
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:83
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:9
+#: src/AdminApp/pages/Help.tsx:34
+#: src/EditorApp/main.ts:1095
+#: src/PHP/Editorial/EditorialStatus.php:22
+msgid "Writing"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:27
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:23
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:137
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:163
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:84
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:10
+#: src/AdminApp/pages/Help.tsx:38
+#: src/EditorApp/main.ts:1096
+#: src/PHP/Editorial/EditorialStatus.php:23
+msgid "Review"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:28
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:24
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:138
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:164
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:85
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:11
+#: src/AdminApp/pages/Help.tsx:42
+#: src/EditorApp/main.ts:1097
+#: src/PHP/Editorial/EditorialStatus.php:24
+msgid "Ready to publish"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:39
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:168
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:203
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:116
+#: src/EditorApp/main.ts:1232
+#: src/PHP/Editorial/Priority.php:26
+msgid "Urgent"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:41
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:166
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:201
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:118
+#: src/EditorApp/main.ts:1230
+#: src/PHP/Editorial/Priority.php:24
+msgid "Normal"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:42
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:165
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:200
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:119
+#: src/EditorApp/main.ts:1229
+#: src/PHP/Editorial/Priority.php:23
+msgid "Low"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:46
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:129
+msgid "Active (draft, review, scheduled)"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:47
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:130
+#: src/PHP/Dashboard/DashboardService.php:167
+#: src/PHP/Newsroom/WordPressStatus.php:16
+msgid "Draft"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:48
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:131
+#: src/PHP/Dashboard/DashboardService.php:168
+#: src/PHP/Newsroom/WordPressStatus.php:17
+msgid "In review"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:49
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:132
+#: src/PHP/Dashboard/DashboardService.php:79
+#: src/PHP/Dashboard/DashboardService.php:169
+#: src/PHP/Newsroom/WordPressStatus.php:18
+msgid "Scheduled"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:50
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:133
+#: src/PHP/Newsroom/WordPressStatus.php:19
+msgid "Published"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:54
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:158
+msgid "All health states"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:55
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:159
+msgid "Has issues"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:56
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:86
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:78
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:160
+msgid "Complete"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:57
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:161
+#: src/PHP/ArticleHealth/ArticleHealthService.php:67
+msgid "Missing featured image"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:58
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:162
+#: src/PHP/ArticleHealth/ArticleHealthService.php:73
+msgid "Missing excerpt"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:59
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:163
+#: src/PHP/ArticleHealth/ArticleHealthService.php:79
+msgid "Missing source"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ActiveFilters.tsx:60
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:164
+#: src/PHP/ArticleHealth/ArticleHealthService.php:85
+msgid "Missing photo credit"
+msgstr ""
+
+#. %s: scheduled local date and time.
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:128
+msgid "Scheduled %s"
+msgstr ""
+
+#. %s: published local date and time.
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:130
+msgid "Published %s"
+msgstr ""
+
+#. %s: last modified local date and time.
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:132
+msgid "Modified %s"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:139
+msgid "ARTICLE"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:157
+msgid "Close article"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:166
+msgid "Loading article details"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:167
+msgid "Loading article details…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:175
+msgid "The article could not load"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:184
+#: src/PHP/Admin/EditorMode.php:52
+msgid "Story needs an assignee"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:186
+msgid "Assign this idea before editing its content."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:221
+msgid "WordPress details"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:223
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:124
+msgid "WordPress status"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:224
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:138
+msgid "Author"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:225
+msgid "Categories"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:226
+msgid "Tags"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:226
+msgid "No tags"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:227
+#: src/PHP/Articles/ArticleService.php:47
+msgid "Excerpt"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:227
+msgid "No excerpt"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:228
+msgid "Legacy source"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:228
+msgid "No source information"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:229
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:189
+#: src/PHP/Articles/ArticleService.php:49
+msgid "Photo credit"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:229
+msgid "No photo credit"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:236
+msgid "Close"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:237
+msgid "View article"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:267
+msgid "Edit article"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:290
+msgid "You have unsaved editorial details."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:135
+msgid "Fix"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:145
+msgid "Article excerpt"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:153
+msgid "Write a short excerpt for this article…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:197
+msgid "e.g. Photo: Veridis Archive / Reuters"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:212
+msgid "Save"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:46
+msgid "Excerpt updated."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:49
+msgid "Failed to update excerpt."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:58
+msgid "Photo credit updated."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:61
+msgid "Failed to update photo credit."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:67
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:154
+#: src/AdminApp/pages/Help.tsx:54
+msgid "Article Health"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:93
+msgid "Assign the story to fix this."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleHealthSummary.tsx:98
+msgid "Set featured image in WordPress editor"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:125
+msgid "Loading editorial board…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:152
+msgid "The editorial board could not load"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:88
+#: src/AdminApp/components/newsroom/NewsroomViewToggle.tsx:34
+msgid "Board"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoard.tsx:98
+msgid "Loading editorial board"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:125
+msgid "Move"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:127
+msgid "→ Idea"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:130
+msgid "→ Writing"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:133
+msgid "→ Review"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:136
+msgid "→ Ready to publish"
+msgstr ""
+
+#. %s: article title
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:26
+msgid "Story: %s. Click to view details or drag to change status."
+msgstr ""
+
+#. %s: article title
+#: src/AdminApp/components/newsroom/EditorialBoardCard.tsx:28
+msgid "Move story \"%s\" to status"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:16
+msgid "No stories in Idea"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:17
+msgid "No stories in Writing"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:18
+msgid "No stories in Review"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:19
+msgid "No stories ready to publish"
+msgstr ""
+
+#. %s: editorial board column title.
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:41
+msgid "%s column"
+msgstr ""
+
+#. 1: number of currently displayed articles, 2: total number of articles.
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:80
+msgid "%1$d of %2$d"
+msgstr ""
+
+#. %s: status name
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:92
+msgid "View all %s stories in list"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialBoardColumn.tsx:94
+msgid "View all →"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:102
+msgid "Could not save editorial details."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:123
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:44
+msgid "Edit editorial details"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:129
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:148
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:77
+msgid "Editorial status"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:183
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:194
+#: src/PHP/Editorial/EditorialMetadataService.php:132
+msgid "Choose an assignee for Writing, Review, or Ready to publish."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:186
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:96
+msgid "Sources"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:191
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:115
+msgid "Internal notes"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:196
+msgid "Private newsroom notes, contact details, or story instructions…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialEditor.tsx:99
+#: src/EditorApp/main.ts:977
+msgid "Editorial details updated."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:10
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:7
+#: src/PHP/Editorial/SourceStatus.php:24
+msgid "Contacted"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:110
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:49
+msgid "No sources listed yet."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:12
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:8
+#: src/PHP/Editorial/SourceStatus.php:25
+msgid "Waiting"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:121
+msgid "No internal notes recorded."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:15
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:9
+#: src/PHP/Editorial/SourceStatus.php:26
+msgid "Unverified"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:29
+msgid "Editorial"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:8
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:6
+#: src/PHP/Editorial/SourceStatus.php:23
+msgid "Confirmed"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/EditorialSummary.tsx:81
+msgid "No deadline set"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:110
+msgid "Creating…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:112
+msgid "Create & edit article"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:113
+msgid "Create draft"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:121
+msgid "Create the draft here, then continue writing in the WordPress editor. Breaking coverage stays inactive until you promote the article."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:125
+msgid "Working title"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:131
+msgid "e.g. City Hall announces new traffic measures..."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:136
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:146
+msgid "Category"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:179
+msgid "Choose assignee…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:190
+msgid "The first assignee becomes the public author. Later reassignment keeps that author."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:193
+msgid "Choose an assignee or Unassigned for this Idea."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:213
+msgid "Deadline (optional)"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:65
+msgid "Draft created."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewStoryModal.tsx:89
+msgid "New story"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:31
+msgid "Loading newsroom"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:32
+msgid "Loading newsroom articles…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:44
+msgid "The newsroom could not load"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:47
+msgid "Create your first story to start assigning work and tracking editorial progress."
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:50
+msgid "No articles found"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:50
+msgid "Try changing or clearing the current filters."
+msgstr ""
+
+#. %d: total number of articles.
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:53
+msgid "%d article"
+msgid_plural "%d articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/AdminApp/components/newsroom/NewsroomList.tsx:65
+msgid "Newsroom pagination"
+msgstr ""
+
+#. %s: published local date and time.
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:13
+msgid "Published: %s"
+msgstr ""
+
+#. %s: article title.
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:24
+msgid "Open article: %s"
+msgstr ""
+
+#. %d: count of overdue follow-up tasks
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:66
+msgid "%d overdue follow-up"
+msgid_plural "%d overdue follow-ups"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %d: number of additional categories.
+#: src/AdminApp/components/newsroom/NewsroomRow.tsx:9
+msgid "+%d"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:115
+msgid "All priorities"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:128
+msgid "Active WP statuses"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:128
+msgid "All WP statuses"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:170
+msgid "Sort"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:174
+msgid "Recently updated"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:175
+msgid "Deadline soonest"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:177
+msgid "Oldest updated"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:178
+msgid "Publish date newest"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:179
+msgid "Publish date oldest"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:180
+msgid "Title A–Z"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:35
+msgid "Loading authors…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:37
+msgid "Authors unavailable"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:38
+msgid "All authors"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:41
+msgid "Loading assignees…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:43
+msgid "Assignees unavailable"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:45
+msgid "All assignments"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:51
+msgid "Loading categories…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:53
+msgid "Categories unavailable"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:54
+msgid "All categories"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:59
+msgid "Search article titles"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:70
+msgid "Search titles…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomToolbar.tsx:81
+msgid "All editorial statuses"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomViewToggle.tsx:11
+msgid "Newsroom view layout"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/NewsroomViewToggle.tsx:21
+msgid "List"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:57
+msgid "Source name / entity…"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:60
+msgid "Source name"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:66
+msgid "Source status"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:79
+msgid "Remove source"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/SourcesEditor.tsx:91
+msgid "Add source"
+msgstr ""
+
+#. %s: current assignee name or Unassigned.
+#: src/AdminApp/components/newsroom/storyPeopleLabels.ts:14
+msgid "Assigned: %s"
+msgstr ""
+
+#. %s: person who is both public author and current assignee.
+#: src/AdminApp/components/newsroom/storyPeopleLabels.ts:26
+msgid "Author & assignee: %s"
+msgstr ""
+
+#: src/AdminApp/design-system/ActiveFilterBar.tsx:20
+msgid "Active filters"
+msgstr ""
+
+#: src/AdminApp/design-system/ActiveFilterBar.tsx:21
+msgid "Clear all"
+msgstr ""
+
+#: src/AdminApp/design-system/ActiveFilterBar.tsx:51
+msgid "Clear all filters"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisModal.tsx:26
+#: src/EditorApp/main.ts:648
+msgid "Close dialog"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisModal.tsx:27
+msgid "Got it"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:15
+#: src/EditorApp/main.ts:804
+msgid "Notifications"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:25
+#: src/EditorApp/main.ts:782
+msgid "Dismiss notification"
+msgstr ""
+
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:107
+msgid "Could not update story status. Please try again."
+msgstr ""
+
+#. %s: target editorial status label
+#: src/AdminApp/hooks/useMoveEditorialStatus.ts:112
+msgid "Story moved to %s."
+msgstr ""
+
+#: src/AdminApp/hooks/useNavigation.ts:5
+#: src/AdminApp/pages/Dashboard.tsx:40
+msgid "Dashboard"
+msgstr ""
+
+#: src/AdminApp/hooks/useNavigation.ts:6
+#: src/AdminApp/pages/Newsroom.tsx:44
+msgid "Newsroom"
+msgstr ""
+
+#: src/AdminApp/hooks/useNavigation.ts:8
+#: src/AdminApp/pages/Help.tsx:9
+msgid "Help"
+msgstr ""
+
+#: src/AdminApp/hooks/useNavigation.ts:9
+#: src/AdminApp/pages/Settings.tsx:117
+msgid "Settings"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:27
+msgid "EDITORIAL COVERAGE"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:29
+msgid "Promote high-priority stories and manage real-time coverage."
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:33
+msgid "＋ Add breaking story"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:43
+msgid "Loading Breaking coverage"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:44
+msgid "Loading Breaking coverage…"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:51
+msgid "Breaking coverage could not load"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:58
+#: src/PHP/Dashboard/DashboardService.php:81
+msgid "Active Breaking"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:59
+msgid "active"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:61
+#: src/PHP/Dashboard/DashboardService.php:60
+msgid "No active breaking stories"
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:61
+msgid "Breaking coverage will appear here when a story is promoted."
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:62
+msgid "Showing the 50 highest-priority active stories."
+msgstr ""
+
+#: src/AdminApp/pages/Breaking.tsx:66
+msgid "Loading story options…"
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:26
+msgid "Could not refresh the dashboard. Please try again."
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:27
+msgid "Dashboard refreshed."
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:39
+msgid "YOUR NEWSROOM, AT A GLANCE"
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:41
+msgid "A little clarity for your next big story."
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:45
+msgid "Refreshing…"
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:45
+msgid "↻  Refresh overview"
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:49
+msgid "Your desk could not load"
+msgstr ""
+
+#: src/AdminApp/pages/Dashboard.tsx:50
+msgid "Refresh failed. Showing the last available overview."
+msgstr ""
+
+#. 1: overdue story count, 2: stories due today count.
+#: src/AdminApp/pages/Dashboard.tsx:77
+msgid "%1$d overdue · %2$d due today"
+msgstr ""
+
+#: src/AdminApp/pages/FollowUps.tsx:66
+msgid "EDITORIAL WORKFLOW"
+msgstr ""
+
+#: src/AdminApp/pages/FollowUps.tsx:68
+msgid "Track callbacks, story developments, and editorial revisits."
+msgstr ""
+
+#: src/AdminApp/pages/FollowUps.tsx:73
+msgid "＋ New follow-up"
+msgstr ""
+
+#: src/AdminApp/pages/FollowUps.tsx:89
+msgid "Editorial follow-ups"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:10
+msgid "A quick guide to the News Desk workflow."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:16
+msgid "Getting started"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:18
+msgid "Create a story in Newsroom."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:19
+msgid "Assign responsibility to an eligible user."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:20
+msgid "Set the editorial status, priority, and deadline."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:21
+msgid "Edit the article after it has an assignee."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:22
+msgid "Add Follow-ups for callbacks, updates, and related editorial tasks."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:27
+msgid "Editorial workflow"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:31
+msgid "An early-stage story. It may remain Unassigned."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:35
+msgid "The article is being drafted and requires an assignee."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:39
+msgid "The article is being checked before publication and requires an assignee."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:43
+msgid "Editorial work is ready. Publishing still follows existing WordPress roles and capabilities."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:49
+msgid "Author and responsible editor"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:50
+msgid "Author is the public WordPress article author shown in the byline. The responsible editor, shown as Assigned, is the person currently responsible for the story in the editorial workflow. They may be the same person or different people."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:55
+msgid "Article Health checks whether a story has a featured image, excerpt, source, and photo credit. These are newsroom readiness checks, not SEO scoring or advanced content analysis."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:60
+msgid "Follow-ups are tasks attached to a story, such as callbacks, updates, or editorial actions. They have their own status and deadline and may remain Unassigned."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:64
+msgid "Roles and permissions"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:65
+msgid "News Desk respects existing WordPress roles and capabilities. It does not replace native publishing permissions or add a separate approval system."
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:69
+msgid "Resources"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:78
+msgid "Product page"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:83
+msgid "Documentation"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:87
+msgid "Guides & reference"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:92
+msgid "Support"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:96
+msgid "Get help"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:8
+msgid "HELP"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:101
+msgid "Changelog"
+msgstr ""
+
+#: src/AdminApp/pages/Help.tsx:105
+msgid "Release notes"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:11
+msgid "LIVE DATA"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:12
+msgid "Live Data"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:13
+msgid "Real-time feeds and external data integrations for the newsroom."
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:18
+msgid "Connected Feeds"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:19
+msgid "0 active"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:23
+msgid "No live feeds connected"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:24
+msgid "Live feeds will appear here when integrations are configured."
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:28
+msgid "Sports Data"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:30
+msgid "News Wires & Feeds"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:32
+msgid "Custom Integrations"
+msgstr ""
+
+#: src/AdminApp/pages/LiveData.tsx:35
+msgid "Integration types will become available here as providers are added."
+msgstr ""
+
+#: src/AdminApp/pages/Newsroom.tsx:43
+msgid "NEWSROOM"
+msgstr ""
+
+#: src/AdminApp/pages/Newsroom.tsx:45
+msgid "Find the story that needs your attention next."
+msgstr ""
+
+#: src/AdminApp/pages/Newsroom.tsx:50
+msgid "＋ New story"
+msgstr ""
+
+#: src/AdminApp/pages/Newsroom.tsx:54
+msgid "Editorial articles"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:105
+msgid "Settings saved successfully."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:107
+msgid "Failed to save settings."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:116
+msgid "SETTINGS"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:118
+msgid "Manage News Desk data, privacy preferences, and system information."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:126
+msgid "Loading Settings"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:129
+msgid "Loading Settings…"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:181
+msgid "Settings could not load"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:193
+msgid "You can view Settings. An administrator can change them."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:201
+msgid "Data & Privacy"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:211
+msgid "Preserve News Desk data on uninstall"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:215
+msgid "When enabled, News Desk editorial metadata and plugin data remain in WordPress if the plugin is deleted."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:222
+msgid "Warning: Deleting the plugin will permanently remove News Desk-owned metadata, follow-ups, settings, and related plugin data."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:232
+msgid "System Information"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: src/AdminApp/pages/Settings.tsx:235
+#: veridis-news-desk.php
+#: src/PHP/Admin/AdminPage.php:13
+msgid "Veridis News Desk"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:239
+msgid "Canonical Model"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:243
+msgid "WordPress"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:247
+msgid "PHP"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:251
+msgid "Database Schema"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:255
+msgid "Not installed"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:280
+msgid "Discard changes"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:286
+msgid "Save settings"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:307
+#: src/EditorApp/main.ts:691
+msgid "Leave without saving"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:316
+msgid "Stay"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:324
+#: src/EditorApp/main.ts:715
+msgid "Save and leave"
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:330
+msgid "You have unsaved changes to your News Desk settings."
+msgstr ""
+
+#: src/AdminApp/pages/Settings.tsx:332
+msgid "Choose whether to save your changes before leaving this page."
+msgstr ""
+
+#: src/EditorApp/main.ts:1011
+#: src/PHP/Admin/EditorMode.php:51
+msgid "Back to Newsroom"
+msgstr ""
+
+#: src/EditorApp/main.ts:1026
+msgid "You do not have permission to edit editorial details."
+msgstr ""
+
+#: src/EditorApp/main.ts:1076
+msgid "Editorial Status"
+msgstr ""
+
+#: src/EditorApp/main.ts:1248
+msgid "Save editorial details"
+msgstr ""
+
+#: src/EditorApp/main.ts:1306
+msgid "Could not discard local edits. Please save your changes or try again."
+msgstr ""
+
+#: src/EditorApp/main.ts:1354
+msgid "Could not save article changes. Please try again."
+msgstr ""
+
+#: src/EditorApp/main.ts:1367
+msgid "Article saved, but editorial details could not be saved. Please try again."
+msgstr ""
+
+#: src/EditorApp/main.ts:1368
+msgid "Could not save editorial changes. Please try again."
+msgstr ""
+
+#: src/EditorApp/main.ts:1379
+msgid "An unexpected error occurred while saving."
+msgstr ""
+
+#: src/EditorApp/main.ts:1396
+msgid "← Back to Newsroom"
+msgstr ""
+
+#: src/EditorApp/main.ts:1404
+msgid "Veridis Editorial"
+msgstr ""
+
+#: src/EditorApp/main.ts:582
+msgid "You have unsaved changes."
+msgstr ""
+
+#: src/EditorApp/main.ts:584
+msgid "You have unsaved article and editorial changes."
+msgstr ""
+
+#: src/EditorApp/main.ts:586
+msgid "You have unsaved article changes."
+msgstr ""
+
+#: src/EditorApp/main.ts:588
+msgid "You have unsaved editorial changes."
+msgstr ""
+
+#: src/EditorApp/main.ts:676
+msgid "Choose whether to save your work before leaving to the Newsroom."
+msgstr ""
+
+#: src/EditorApp/main.ts:704
+msgid "Stay in editor"
+msgstr ""
+
+#: src/EditorApp/main.ts:715
+msgid "Saving and leaving…"
+msgstr ""
+
+#: src/EditorApp/main.ts:872
+msgid "Failed to load editorial metadata."
+msgstr ""
+
+#: src/EditorApp/main.ts:957
+msgid "Could not update editorial details. Please try again."
+msgstr ""
+
+#: src/EditorApp/main.ts:988
+msgid "Ready"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:66
+#: src/EditorApp/main.ts:149
+msgctxt "Monday abbreviation"
+msgid "Mo"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:67
+#: src/EditorApp/main.ts:150
+msgctxt "Tuesday abbreviation"
+msgid "Tu"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:68
+#: src/EditorApp/main.ts:151
+msgctxt "Wednesday abbreviation"
+msgid "We"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:69
+#: src/EditorApp/main.ts:152
+msgctxt "Thursday abbreviation"
+msgid "Th"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:70
+#: src/EditorApp/main.ts:153
+msgctxt "Friday abbreviation"
+msgid "Fr"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:71
+#: src/EditorApp/main.ts:154
+msgctxt "Saturday abbreviation"
+msgid "Sa"
+msgstr ""
+
+#: src/AdminApp/components/DateTimePicker.tsx:72
+#: src/EditorApp/main.ts:155
+msgctxt "Sunday abbreviation"
+msgid "Su"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:313
+msgctxt "single follow-up status"
+msgid "Completed"
+msgstr ""
+
+#: src/AdminApp/components/followups/FollowUpModal.tsx:314
+#: src/AdminApp/components/followups/FollowUpRow.tsx:120
+#: src/PHP/FollowUps/FollowUpStatus.php:22
+msgctxt "single follow-up status"
+msgid "Cancelled"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:278
+msgctxt "drawer unsaved changes action"
+msgid "Discard changes"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:282
+msgctxt "drawer unsaved changes action"
+msgid "Stay"
+msgstr ""
+
+#: src/AdminApp/components/newsroom/ArticleDrawer.tsx:285
+msgctxt "drawer unsaved changes action"
+msgid "Save changes and continue"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:31
+#: src/EditorApp/main.ts:734
+msgctxt "toast type"
+msgid "Success"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:32
+#: src/EditorApp/main.ts:735
+msgctxt "toast type"
+msgid "Info"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:33
+#: src/EditorApp/main.ts:736
+msgctxt "toast type"
+msgid "Warning"
+msgstr ""
+
+#: src/AdminApp/design-system/VeridisToast.tsx:34
+#: src/EditorApp/main.ts:737
+msgctxt "toast type"
+msgid "Error"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: veridis-news-desk.php
+msgid "https://veridis.dev/products/news-desk/"
+msgstr ""
+
+#. Description of the plugin
+#: veridis-news-desk.php
+msgid "A Veridis newsroom application inside WordPress admin."
+msgstr ""
+
+#. Author URI of the plugin
+#: veridis-news-desk.php
+msgid "https://veridis.dev"
+msgstr ""
+
+#: src/PHP/Admin/AdminPage.php:14
+msgid "Veridis News"
+msgstr ""
+
+#: src/PHP/Admin/AdminPage.php:29
+msgid "You do not have access to News Desk."
+msgstr ""
+
+#: src/PHP/Admin/Assets.php:42
+msgid "News Desk assets are missing. Run npm install and npm run build in the plugin directory."
+msgstr ""
+
+#: src/PHP/Admin/EditorMode.php:51
+#: src/PHP/Articles/ArticleContentService.php:37
+msgid "Assign this story before editing its content."
+msgstr ""
+
+#. translators: %d: number of articles.
+#: src/PHP/ArticleHealth/ArticleHealthService.php:57
+#, php-format
+msgid "%d article has no featured image"
+msgid_plural "%d articles have no featured image"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: src/PHP/ArticleHealth/ArticleHealthService.php:59
+#, php-format
+msgid "%d article has no excerpt"
+msgid_plural "%d articles have no excerpt"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: src/PHP/ArticleHealth/ArticleHealthService.php:61
+#, php-format
+msgid "%d article has no source information"
+msgid_plural "%d articles have no source information"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: src/PHP/ArticleHealth/ArticleHealthService.php:63
+#, php-format
+msgid "%d article has no photo credit"
+msgid_plural "%d articles have no photo credit"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/PHP/Articles/ArticleContentService.php:28
+#: src/PHP/Articles/ArticleService.php:37
+#: src/PHP/REST/FollowUpController.php:100
+msgid "The article could not be found."
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:40
+#: src/PHP/REST/FollowUpController.php:103
+msgid "You do not have permission to view this article."
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:46
+msgid "Featured image"
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:48
+msgid "Source"
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:72
+msgid "Enter a working title."
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:76
+#: src/PHP/Editorial/EditorialMetadataService.php:118
+msgid "Assigned user must have permission to edit posts."
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:79
+msgid "Select a valid category."
+msgstr ""
+
+#: src/PHP/Articles/ArticleService.php:112
+#: src/PHP/Editorial/EditorialMetadataService.php:226
+msgid "Could not save the story assignment."
+msgstr ""
+
+#: src/PHP/Canonical/CanonicalBootstrap.php:20
+msgid "Canonical Veridis UUID for the article."
+msgstr ""
+
+#: src/PHP/Dashboard/DashboardService.php:39
+msgid "Overdue deadlines"
+msgstr ""
+
+#. translators: %d: number of overdue editorial stories.
+#: src/PHP/Dashboard/DashboardService.php:41
+#, php-format
+msgid "%d story has missed its editorial deadline"
+msgid_plural "%d stories have missed their editorial deadline"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: src/PHP/Dashboard/DashboardService.php:49
+#, php-format
+msgid "%d article published today"
+msgid_plural "%d articles published today"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: src/PHP/Dashboard/DashboardService.php:51
+#, php-format
+msgid "%d article scheduled"
+msgid_plural "%d articles scheduled"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of stories requiring attention.
+#: src/PHP/Dashboard/DashboardService.php:53
+#, php-format
+msgid "%d story requires attention"
+msgid_plural "%d stories require attention"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of active breaking stories.
+#: src/PHP/Dashboard/DashboardService.php:63
+#, php-format
+msgid "%d active breaking story"
+msgid_plural "%d active breaking stories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/PHP/Dashboard/DashboardService.php:130
+#: src/PHP/Newsroom/ArticleFormatter.php:25
+msgid "Unknown author"
+msgstr ""
+
+#: src/PHP/Dashboard/DashboardService.php:136
+#: src/PHP/FollowUps/FollowUpService.php:256
+#: src/PHP/Newsroom/ArticleFormatter.php:45
+msgid "(no title)"
+msgstr ""
+
+#: src/PHP/Dev/DemoCommand.php:29
+msgid "Veridis News Desk demo content was created."
+msgstr ""
+
+#: src/PHP/Dev/DemoCommand.php:52
+msgid "No Veridis News Desk demo records were found."
+msgstr ""
+
+#: src/PHP/Dev/DemoCommand.php:55
+msgid "Remove the marked Veridis News Desk demo posts, media, terms, and users?"
+msgstr ""
+
+#. translators: 1: users, 2: categories, 3: tags, 4: media, 5: posts.
+#: src/PHP/Dev/DemoCommand.php:60
+#, php-format
+msgid "Removed %1$d users, %2$d categories, %3$d tags, %4$d media items, and %5$d posts."
+msgstr ""
+
+#. translators: %d: number of records retained for safety.
+#: src/PHP/Dev/DemoCommand.php:72
+#, php-format
+msgid "%d marked record was retained because it no longer passed the safety checks."
+msgid_plural "%d marked records were retained because they no longer passed the safety checks."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/PHP/Dev/DemoCommand.php:78
+msgid "Veridis News Desk demo content was removed."
+msgstr ""
+
+#. translators: %s: current WordPress environment type.
+#: src/PHP/Dev/DemoCommand.php:88
+#, php-format
+msgid "Demo tooling is disabled in the %s environment. Define VERIDIS_NEWS_DESK_ALLOW_DEMO_SEEDING as true only when you intentionally need it."
+msgstr ""
+
+#. translators: 1: users, 2: categories, 3: tags, 4: media, 5: posts.
+#: src/PHP/Dev/DemoCommand.php:99
+#, php-format
+msgid "Dataset: %1$d users, %2$d categories, %3$d tags, %4$d media items, and %5$d posts."
+msgstr ""
+
+#. translators: 1: published, 2: scheduled, 3: drafts, 4: pending review.
+#: src/PHP/Dev/DemoCommand.php:110
+#, php-format
+msgid "Statuses: %1$d published, %2$d scheduled, %3$d drafts, and %4$d pending review."
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:25
+msgid "A Veridis News Desk demo dataset already exists. Run clear-demo before creating another one."
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:30
+msgid "The PHP GD extension is required to generate local demo images."
+msgstr ""
+
+#. translators: %s: technical error message.
+#: src/PHP/Dev/DemoSeeder.php:59
+#, php-format
+msgid "Demo seeding failed and created records were rolled back: %s"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:179
+msgctxt "demo entity type"
+msgid "user"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:192
+msgctxt "demo entity type"
+msgid "category"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:203
+msgctxt "demo entity type"
+msgid "tag"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:233
+msgctxt "demo entity type"
+msgid "media item"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:267
+msgctxt "demo entity type"
+msgid "post"
+msgstr ""
+
+#: src/PHP/Dev/DemoSeeder.php:280
+msgctxt "demo entity type"
+msgid "post tags"
+msgstr ""
+
+#. translators: 1: demo entity type, 2: WordPress error message.
+#: src/PHP/Dev/DemoSeeder.php:544
+#, php-format
+msgid "Could not create the demo %1$s: %2$s"
+msgstr ""
+
+#. translators: %s: demo entity type.
+#: src/PHP/Dev/DemoSeeder.php:554
+#, php-format
+msgid "Could not create the demo %s because WordPress returned an empty identifier."
+msgstr ""
+
+#: src/PHP/Editorial/EditorialMetadataService.php:35
+msgid "Unknown editor"
+msgstr ""
+
+#: src/PHP/Editorial/EditorialMetadataService.php:103
+msgid "Invalid editorial status."
+msgstr ""
+
+#: src/PHP/Editorial/EditorialMetadataService.php:147
+msgid "Invalid deadline datetime format."
+msgstr ""
+
+#: src/PHP/Editorial/EditorialMetadataService.php:161
+msgid "Invalid editorial priority."
+msgstr ""
+
+#: src/PHP/Editorial/EditorialMetadataService.php:178
+msgid "Sources must be an array."
+msgstr ""
+
+#. translators: %s: source status.
+#: src/PHP/Editorial/EditorialMetadataService.php:193
+#, php-format
+msgid "Invalid source status \"%s\"."
+msgstr ""
+
+#. translators: %d: number of minutes.
+#: src/PHP/Editorial/EditorialMetadataService.php:301
+#, php-format
+msgid "Overdue by %dm"
+msgstr ""
+
+#. translators: 1: hours, 2: minutes.
+#: src/PHP/Editorial/EditorialMetadataService.php:308
+#, php-format
+msgid "Overdue by %1$dh %2$dm"
+msgstr ""
+
+#. translators: %d: hours.
+#: src/PHP/Editorial/EditorialMetadataService.php:311
+#, php-format
+msgid "Overdue by %dh"
+msgstr ""
+
+#. translators: %d: number of days.
+#: src/PHP/Editorial/EditorialMetadataService.php:315
+#, php-format
+msgid "Overdue by %d day"
+msgid_plural "Overdue by %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: formatted local time.
+#: src/PHP/Editorial/EditorialMetadataService.php:324
+#: src/PHP/FollowUps/FollowUpService.php:349
+#, php-format
+msgid "Today, %s"
+msgstr ""
+
+#. translators: %s: formatted local time.
+#: src/PHP/Editorial/EditorialMetadataService.php:329
+#: src/PHP/FollowUps/FollowUpService.php:356
+#, php-format
+msgid "Tomorrow, %s"
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:48
+msgid "Article not found."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:52
+msgid "You cannot add follow-ups for this article."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:106
+msgid "Follow-up not found."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:110
+msgid "You cannot edit this follow-up."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:146
+msgid "Invalid status."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:211
+msgid "Follow-up title is required."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:225
+msgid "Selected assignee is invalid or ineligible."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:246
+msgid "Invalid due date format."
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:308
+msgid "Unknown"
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpService.php:320
+msgid "System"
+msgstr ""
+
+#. translators: %d: number of minutes overdue
+#: src/PHP/FollowUps/FollowUpService.php:336
+#, php-format
+msgid "Overdue by %d min"
+msgid_plural "Overdue by %d mins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of hours overdue
+#: src/PHP/FollowUps/FollowUpService.php:341
+#, php-format
+msgid "Overdue by %d hr"
+msgid_plural "Overdue by %d hrs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: formatted date
+#: src/PHP/FollowUps/FollowUpService.php:344
+#, php-format
+msgid "Overdue (%s)"
+msgstr ""
+
+#: src/PHP/FollowUps/FollowUpStatus.php:20
+msgid "Done"
+msgstr ""
+
+#: src/PHP/REST/FollowUpController.php:154
+#: src/PHP/REST/FollowUpController.php:169
+#: src/PHP/REST/SettingsController.php:54
+msgid "Expected a JSON object."
+msgstr ""

@@ -1,0 +1,12 @@
+import 'vite/modulepreload-polyfill';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { QueryClientProvider } from '@tanstack/react-query';
+import { queryClient } from './query/client';
+import { ToastProvider } from './design-system/VeridisToast';
+import { ErrorBoundary } from './app/ErrorBoundary';
+import { App } from './app/App';
+import './styles/tokens.css';
+import './styles/app.css';
+const root = document.getElementById('veridis-news-desk-root');
+if (root) createRoot(root).render(<StrictMode><ErrorBoundary><QueryClientProvider client={queryClient}><ToastProvider><App /></ToastProvider></QueryClientProvider></ErrorBoundary></StrictMode>);

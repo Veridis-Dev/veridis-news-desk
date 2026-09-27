@@ -1,0 +1,16 @@
+@font-face { font-family: 'Veridis News Geist'; src: url('../../../assets/fonts/geist/Geist-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Veridis News Geist'; src: url('../../../assets/fonts/geist/Geist-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Veridis News Geist'; src: url('../../../assets/fonts/geist/Geist-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Veridis News Geist'; src: url('../../../assets/fonts/geist/Geist-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+.vnd-app {
+  --vnd-primary: #059669; --vnd-primary-dark: #047857; --vnd-ink: #111827;
+  --vnd-muted: #6b7280; --vnd-white: #fff; --vnd-surface: #f9fafb; --vnd-border: #e5e7eb;
+  --vnd-success-bg: #ecfdf5; --vnd-info: #1d4ed8; --vnd-info-bg: #eff6ff;
+  --vnd-warning: #92400e; --vnd-warning-bg: #fffbeb; --vnd-error: #b91c1c; --vnd-error-bg: #fef2f2;
+  --vnd-space-1: 4px; --vnd-space-2: 8px; --vnd-space-3: 12px; --vnd-space-4: 16px;
+  --vnd-space-5: 20px; --vnd-space-6: 24px; --vnd-space-8: 32px; --vnd-space-10: 40px;
+  --vnd-radius: 12px; --vnd-radius-sm: 6px;
+  --vnd-shadow-sm: 0 1px 2px rgb(0 0 0 / 4%); --vnd-shadow-lg: 0 10px 40px rgb(0 0 0 / 6%);
+  --vnd-font: 'Veridis News Geist', ui-sans-serif, system-ui, sans-serif;
+  --vnd-text-xs: 12px; --vnd-text-sm: 13px; --vnd-text-base: 14px; --vnd-text-lg: 16px; --vnd-text-xl: 22px;
+}
