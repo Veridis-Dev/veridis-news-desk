@@ -1,30 +1,51 @@
-=== Veridis News Desk ===
+=== Veridis News Desk – Editorial Workflow & Newsroom ===
 Contributors: veridisdev
-Tags: newsroom, editorial workflow, publishing, journalism, editorial calendar
+Tags: editorial workflow, newsroom, content planning, editorial calendar, workflow
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A Veridis newsroom application inside WordPress admin.
+A newsroom and editorial workflow for managing stories, assignments, deadlines, sources, follow-ups, and publishing readiness in WordPress.
 
 == Description ==
 
-Veridis News Desk provides an integrated newsroom and editorial workflow management layer directly inside WordPress administration.
+Veridis News Desk adds a newsroom and editorial workflow layer to WordPress for teams managing stories from idea through review and publishing readiness.
 
-Current capabilities include:
+Plan and track stories, assign editors or writers, manage deadlines and priorities, verify sources, record follow-ups, and monitor editorial readiness without replacing the native WordPress editor.
 
-* Newsroom Overview: Centralized dashboard for monitoring publications, workflow stages, and editorial activity.
-* Editorial Statuses: Dedicated stages (Idea, Writing, Review, Ready) mapped seamlessly to WordPress post statuses.
-* Assignees & Deadlines: Assign writers and editors, set publication deadlines, and track overdue items.
-* Editorial Priorities: Highlight story importance from low to urgent.
-* Editorial Board: Visual board workflow for active story management across editorial columns.
-* Article Health: Automated checks for editorial readiness, metadata completion, source attribution, and photo credits.
-* Follow-ups Management: Track post-publication follow-up tasks, updates, and research leads.
-* Editor Mode Integration: Seamless sidebar integration inside the WordPress Block Editor with unsaved-change protection.
-* Canonical Article Model: Modern data layer and REST API for consistent editorial metadata retrieval and updates.
+= Built for editorial teams and newsrooms =
+
+Veridis News Desk is designed for:
+
+* Newsrooms coordinating stories across reporters and editors.
+* Editorial teams managing assignments, deadlines, sources, and review stages.
+* Online publications planning work from the first idea through publishing readiness.
+* Multi-author WordPress sites that need a shared view of responsibility and progress.
+* Content teams tracking priorities, follow-ups, and article readiness in one place.
+
+= A newsroom workflow around WordPress posts =
+
+Stories remain native WordPress posts, and teams continue writing and editing in Gutenberg. Veridis News Desk adds the planning and coordination layer around that familiar publishing process, helping teams organize editorial work before publication without replacing the WordPress editor.
+
+Editorial assignments are separate from the WordPress author or public byline. An assignee identifies the editor or writer currently responsible for moving a story forward, while the WordPress author identifies post authorship; the two roles remain distinct editorial concepts.
+
+“Ready to publish” is an editorial workflow state. It signals that the newsroom considers a story ready for the next publishing decision, but it does not publish the post or bypass WordPress permissions, scheduling, or review.
+
+= Main editorial capabilities =
+
+* Dashboard: See active stories, deadlines, follow-ups, and items that need editorial attention at a glance.
+* Newsroom List: Search, filter, sort, and review story assignments, stages, priorities, and readiness in a focused list.
+* Board / Kanban: Move stories through Idea, Writing, Review, and Ready to publish in a visual workflow.
+* Story assignment: Give an editor or writer clear responsibility while keeping the assignment distinct from the WordPress author or byline.
+* Deadlines and priorities: Set target dates, identify urgent work, and spot overdue stories.
+* Editorial stages: Track each story from the initial idea through drafting, review, and publishing readiness.
+* Structured source tracking: Record sources and their verification status alongside each story.
+* Follow-ups: Keep callbacks, research tasks, updates, and post-publication actions connected to the relevant story.
+* Article readiness: Check featured images, excerpts, source information, and photo credits before publication.
+* Gutenberg Editor Mode: Review and update editorial details from the native WordPress Block Editor while working on the post.
 
 = Documentation & Resources =
 
@@ -58,15 +79,25 @@ Building from source requires Node.js (>=22.12.0) and npm:
 == Frequently Asked Questions ==
 
 = Does Veridis News Desk replace the WordPress editor? =
-No. It integrates alongside standard WordPress editing workflows, providing a dedicated Newsroom dashboard and an optional Editor Mode sidebar within the Block Editor.
+No. It works alongside Gutenberg and standard WordPress publishing. The Newsroom organizes editorial planning and coordination, while the native WordPress editor remains the place where teams write and edit post content.
+
+= Does Ready to publish publish the post? =
+No. Ready to publish is an editorial workflow state only. Publishing and scheduling remain controlled by WordPress and the user's existing permissions.
+
+= Is the story assignee the same as the WordPress author? =
+No. The assignee identifies who is currently responsible for the editorial work. The WordPress author identifies post authorship and the public byline; the two roles are distinct.
 
 = Does it modify existing posts? =
-No. Veridis News Desk does not replace or rewrite your article title or body content. It stores editorial workflow metadata alongside WordPress posts, while features such as Follow-ups and settings use their own plugin-managed storage.
+No. Veridis News Desk does not replace or rewrite your article title or body content. It adds editorial workflow information around your existing WordPress posts.
 
 = What happens to data when the plugin is removed? =
 By default, Veridis News Desk preserves all editorial metadata, custom database tables, and settings upon plugin deletion. If you prefer a complete cleanup, you can disable the "Preserve data on uninstall" option in Settings prior to deleting the plugin.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fixed mobile dashboard story rows collapsing at narrow screen widths.
+* Improved responsive layout for story metadata and badges in the WordPress admin.
 
 = 1.0.0 =
 * Added a newsroom Dashboard with publication totals, urgent work, deadline watch, Article Health, and Follow-ups at a glance.

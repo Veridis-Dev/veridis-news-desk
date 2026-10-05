@@ -16,12 +16,12 @@
     "src": "assets/fonts/geist/Geist-SemiBold.woff2"
   },
   "src/AdminApp/main.tsx": {
-    "file": "assets/app-B9_yl5bM.js",
+    "file": "assets/app-C1IqXrm0.js",
     "name": "app",
     "src": "src/AdminApp/main.tsx",
     "isEntry": true,
     "css": [
-      "assets/app-C3EFsh3k.css"
+      "assets/app-D0sm55Of.css"
     ],
     "assets": [
       "assets/Geist-Regular-B6Z79stV.woff2",
