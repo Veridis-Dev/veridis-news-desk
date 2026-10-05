@@ -93,6 +93,16 @@ No. Veridis News Desk does not replace or rewrite your article title or body con
 = What happens to data when the plugin is removed? =
 By default, Veridis News Desk preserves all editorial metadata, custom database tables, and settings upon plugin deletion. If you prefer a complete cleanup, you can disable the "Preserve data on uninstall" option in Settings prior to deleting the plugin.
 
+== Screenshots ==
+
+1. Newsroom Dashboard with publishing activity, deadlines, Article Health, and follow-ups at a glance.
+2. Newsroom List for reviewing stories, assignments, priorities, deadlines, and editorial readiness.
+3. Editorial Board with stories organized across Idea, Writing, Review, and Ready to publish.
+4. Story Drawer with editorial details, sources, internal notes, follow-ups, and Article Health.
+5. Editor Mode brings assignment, deadline, priority, and workflow controls into the WordPress Block Editor.
+6. Follow-ups workspace for tracking callbacks, story developments, deadlines, and editorial revisits.
+7. New Story workflow with category, editorial status, assignee, priority, and optional deadline.
+
 == Changelog ==
 
 = 1.0.1 =
