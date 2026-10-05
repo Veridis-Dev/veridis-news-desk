@@ -4,7 +4,7 @@ Tags: editorial workflow, newsroom, content planning, editorial calendar, workfl
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -104,6 +104,10 @@ By default, Veridis News Desk preserves all editorial metadata, custom database 
 7. New Story workflow with category, editorial status, assignee, priority, and optional deadline.
 
 == Changelog ==
+
+= 1.0.2 =
+* Improved mobile responsiveness across editorial forms, drawers, sources, settings, and action groups.
+* Fixed narrow-screen overflow in editorial details and related controls.
 
 = 1.0.1 =
 * Fixed mobile dashboard story rows collapsing at narrow screen widths.

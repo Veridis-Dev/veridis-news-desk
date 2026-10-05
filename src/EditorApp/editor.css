@@ -1028,3 +1028,30 @@ body.vnd-editor-mode .vnd-editor-modal::backdrop,
   outline: 2px solid #059669;
   outline-offset: 2px;
 }
+
+@media (max-width: 600px) {
+  body.vnd-editor-mode .vnd-editor-modal,
+  .vnd-editor-modal {
+    width: calc(100vw - 20px);
+  }
+
+  .vnd-editor-modal-body {
+    padding: 16px;
+  }
+
+  .vnd-editor-modal-footer {
+    align-items: stretch;
+    flex-direction: column-reverse;
+    padding: 12px 16px;
+  }
+
+  .vnd-editor-modal-footer-right {
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .vnd-deadline-modal-footer {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}

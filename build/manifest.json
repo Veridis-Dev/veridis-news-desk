@@ -16,12 +16,12 @@
     "src": "assets/fonts/geist/Geist-SemiBold.woff2"
   },
   "src/AdminApp/main.tsx": {
-    "file": "assets/app-C1IqXrm0.js",
+    "file": "assets/app-DSMLRduw.js",
     "name": "app",
     "src": "src/AdminApp/main.tsx",
     "isEntry": true,
     "css": [
-      "assets/app-D0sm55Of.css"
+      "assets/app-BLu86y9e.css"
     ],
     "assets": [
       "assets/Geist-Regular-B6Z79stV.woff2",
@@ -31,12 +31,12 @@
     ]
   },
   "src/EditorApp/main.ts": {
-    "file": "assets/editor-CDr_GYr9.js",
+    "file": "assets/editor-ClOxawbR.js",
     "name": "editor",
     "src": "src/EditorApp/main.ts",
     "isEntry": true,
     "css": [
-      "assets/editor-GjkQbbaX.css"
+      "assets/editor-DDXqglXR.css"
     ],
     "assets": [
       "assets/Geist-Regular-B6Z79stV.woff2",

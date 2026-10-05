@@ -438,6 +438,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  min-width: 0;
   font-size: 12px;
 }
 .vnd-app .vnd-form-field span,
@@ -449,6 +450,8 @@
   color: var(--vnd-muted);
 }
 .vnd-app .vnd-form-field :is(input, select) {
+  width: 100%;
+  min-width: 0;
   min-height: 38px;
   height: 38px;
   border: 1px solid var(--vnd-border);
@@ -460,6 +463,8 @@
   font-family: inherit;
 }
 .vnd-app .vnd-form-field textarea {
+  width: 100%;
+  min-width: 0;
   border: 1px solid var(--vnd-border);
   border-radius: var(--vnd-radius-sm);
   padding: 8px 12px;
@@ -936,19 +941,23 @@ dialog.vnd-deadline-modal::backdrop {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-width: 0;
 }
 .vnd-app .vnd-sources-list {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-width: 0;
 }
 .vnd-app .vnd-source-row {
   display: flex;
   gap: 6px;
   align-items: center;
+  min-width: 0;
 }
 .vnd-app .vnd-source-name-input {
   flex: 1;
+  min-width: 0;
   height: 32px;
   min-height: 32px;
   padding: 4px 8px;
@@ -1486,6 +1495,42 @@ dialog.vnd-deadline-modal::backdrop {
   .vnd-app .vnd-board-grid {
     grid-template-columns: 1fr;
     min-width: 0;
+  }
+  .vnd-app .vnd-editorial-grid,
+  .vnd-app .vnd-form-grid,
+  .vnd-app .vnd-form-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .vnd-app .vnd-editorial-header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .vnd-app .vnd-source-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 28px;
+  }
+  .vnd-app .vnd-source-name-input {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+  .vnd-app .vnd-source-status-select {
+    width: 100%;
+    min-width: 0;
+  }
+  .vnd-app .vnd-editorial-form-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .vnd-app .vnd-editorial-actions-group {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 0;
+    width: 100%;
+  }
+  .vnd-app .vnd-followup-drawer-header-actions,
+  .vnd-drawer .vnd-drawer-footer,
+  .vnd-deadline-modal-footer {
+    flex-wrap: wrap;
   }
 }
 
@@ -2210,4 +2255,22 @@ dialog.vnd-deadline-modal::backdrop {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: var(--vnd-space-2);
+}
+
+@media (max-width: 782px) {
+  .vnd-app .vnd-settings-actions-bar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .vnd-app .vnd-settings-actions-group {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 0;
+    width: 100%;
+  }
+  .vnd-app .vnd-settings-system-item {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
 }
